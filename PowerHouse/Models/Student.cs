@@ -34,6 +34,7 @@ namespace PowerHouse.Models
         public int StudentId { get; set; }
         [NotMapped]
         public List<Subject> Subjects { get; set; }
+        [Display(Name = "Class Name")]
         public string ClassCode { get; set; }
     }
 }
